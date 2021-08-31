@@ -1,0 +1,101 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 14px !important;
+    }
+    p , a , li {
+        font-size: 11px !important;
+    }
+    header::before{
+        bottom: -71px !important;
+    }
+    .mobile-none ,
+    .swiper-pagination-fraction{
+        display: none !important;
+    }
+    .mobile-block{
+        display: block !important;
+    }
+    .locations .article-box{
+        flex-direction: column;
+    }
+    .locations .article-box .image-content , .locations .article-box .content{
+        width: 100%;
+    }
+    .mobile-content{
+        display: flex !important;
+        opacity: 1;
+    }
+    html[dir='rtl'] .mobile-content {
+        right: -100%;
+    }
+    html[dir='rtl']  .active-nav 
+    {
+        right: 0% !important;
+    }
+    html[dir='ltr'] .mobile-content {
+        left: -100%;
+    }
+    html[dir='ltr']  .active-nav 
+    {
+        left: 0% !important; 
+    }
+    html[dir='rtl'] .mobile-close
+    {
+        
+        left: 20px;
+    }
+    
+    html[dir='ltr'] .mobile-close
+    {
+        
+        right: 20px;
+    }
+    .nav-button{
+        font-size: 20px;
+        color: #fff;
+    }
+    header .swiper-slide .content h3{
+        line-height: 2rem;
+    }
+    header .swiper-header{
+        height: fit-content;
+        padding-bottom: 60px;
+    }
+    .swiper-button-next, .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+
+    }
+    .about-us .image-content ,
+    .articles .swiper-article .article-box .image-content {
+        height: 200px;
+    }
+    .services .services-box{
+        padding: 15px 20px;
+    }
+    footer .contact-us , .card-body {
+        padding: 20px 10px;
+        text-align: center;
+    }
+    .copyrights .content{
+        flex-direction: column;
+    }
+    .copyrights .content p{
+        font-size: 9px !important;
+    }
+    .navbar .nav-content .content .work-time {
+        width: fit-content;
+        padding-right: 10px;
+        padding-left: 10px;
+        bottom: -138px;
+    }
+}
